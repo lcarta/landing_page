@@ -229,14 +229,16 @@ header nav ul{
   text-align:center;
   margin-bottom:20px;
 }
-
-}
-
-@media only screen and (max-width: 380px) {
 .price-dimension{
   width:50%;
 }
-  .price-contenitor h2, .price-conteitor h3,{
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  .price-contenitor h2, .price-contenitor h3{
  font-size:0.3rem;
 }
 }
