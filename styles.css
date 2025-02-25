@@ -222,6 +222,9 @@ header nav ul{
   grid-template-columns: 1fr;
 }
 
+  #product-description-container{
+  grid-column:2/-1;
+}
 
 .prices-contenitor {
   flex-direction:column;
