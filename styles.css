@@ -233,7 +233,7 @@ header nav ul{
 }
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 300px) {
 
  .prices-contenitor h2,  .prices-contenitor h2{
     text-size:-10%;
