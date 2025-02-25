@@ -185,7 +185,7 @@ hr{
 
 .price-dimension{
   border:1px solid #067F94;
-  width:35%;
+  width:30%;
   height:150px;
   margin-bottom:20px;
 
@@ -232,4 +232,8 @@ header nav ul{
 
 }
 
-
+@media only screen and (max-width: 750px) {
+.price-dimension{
+  width:50%;
+}
+}
