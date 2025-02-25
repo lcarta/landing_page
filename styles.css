@@ -7,6 +7,7 @@
 
 body{
 background-color:#ffe8d6;
+font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
 color:#353535
 }
 
@@ -19,8 +20,7 @@ color:#353535
   height:maxcontent;
   display:flex;
   justify-content:space-between;
-  padding-right:1.5%;
-  padding-left:1.5%;
+  padding:0 1.5%;
   align-items:center;
   border-bottom:2px solid #cb997e;
 }
@@ -65,17 +65,16 @@ header nav ul{
 /* start main first section selectors*/
 
 .container {
-  display: grid;
-  grid-template-columns:  minmax(2rem, 1fr) minmax(min-content, 40%) minmax(min-content, 40%) minmax(2rem, 1fr);
+  display: flex;
+  flex-direction:row;
   align-items:center;
-  column-gap: 2rem;
+  justify-content:space-evenly;
 }
 
 
 #product-description-container{
   width:100%;
   padding:5% 0.5em;
-  grid-column:2/3;
 }
 
 .grid-title{
@@ -219,8 +218,7 @@ header nav ul{
 }
 
  .container{
-   grid-column:1/-1;
-  grid-template-columns: 1fr;
+   flex-direction:column;
    color:red;
 }
 
