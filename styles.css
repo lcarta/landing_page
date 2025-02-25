@@ -73,6 +73,7 @@ header nav ul{
 
 
 #product-description-container{
+  width:100%;
   padding:5% 0.5em;
   grid-column:2/3;
 }
@@ -237,8 +238,8 @@ header nav ul{
 }
 
 @media only screen and (max-width: 400px) {
-
   .price-contenitor h2, .price-contenitor h3{
  font-size:0.3rem;
+    color:red;
 }
 }
