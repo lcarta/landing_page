@@ -236,7 +236,7 @@ header nav ul{
 .price-dimension{
   width:50%;
 }
-  .price-dimension h2, .price-dimension h3,{
- text-size:0.5em;
+  .price-contenitor h2, .price-conteitor h3,{
+ text-size:0.3rem;
 }
 }
