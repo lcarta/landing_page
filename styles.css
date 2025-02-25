@@ -162,13 +162,14 @@ hr{
 
 /* start main body selectors*/
 
+.body{
+  margin:10px auto;
+  padding:0 5%;
 
 .body-title{
   margin-bottom:20px;
 }
 
-.body-description{
-}
 
 /* start prices contenitor selectors*/
 
