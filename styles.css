@@ -232,11 +232,11 @@ header nav ul{
 
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 380px) {
 .price-dimension{
   width:50%;
 }
   .price-dimension h2, .price-dimension h3,{
- text-size:1em;
+ text-size:0.5em;
 }
 }
