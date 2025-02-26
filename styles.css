@@ -74,7 +74,7 @@ header nav ul{
 
 #product-description-container{
   width:fit-content;
-  padding:5% 0.5em;
+  margin: 20px;
 }
 
 .grid-title{
@@ -91,26 +91,27 @@ header nav ul{
 }
 
 .product-title{
-  font-size:max(6vw, 2em);
+  font-size: max(3vw, 1.8em);
 }
 
 .product-description{
-  font-size:max(4vw,1.5em);
+  font-size: max(2vw, 1.5em);
   margin-bottom:3vh;
 }
 
 #video-container{
-  width:fit-content;
-  height:30em;
-  margin:5em 0.5em;
-  justify-items:center;
+   width: 100%;
+    height: max(400px, 30vw);
+    margin: 20px;
+    text-align: center;
+    align-content: center;
 }
 
 
 iframe{
   width:90%;
   height:90%;
-  border:3px solid red;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
 
@@ -169,7 +170,7 @@ hr{
 /* start prices contenitor selectors*/
 
 
-.prices-contenitor {
+.price-cards-container{
   display: flex;
   flex-direction:rows;
   justify-content:space-evenly;
@@ -177,11 +178,12 @@ hr{
   margin-bottom:20px;
 }
 
-.price-dimension{
+.price-card{
   border:1px solid #067F94;
   width:30%;
   height:150px;
   margin-bottom:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 
 }
 
