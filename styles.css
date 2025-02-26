@@ -225,7 +225,7 @@ hr{
  }
   
  .price-card{
-  width:50%;
+     width: max(200px, 50%);
  }
 }
 
