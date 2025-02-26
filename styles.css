@@ -19,6 +19,7 @@ color:#353535
   top:0;
   height:max-content;
   display:flex;
+  flex-direction:row;
   justify-content:space-between;
   padding:5px 1.5%;
   align-items:center;
