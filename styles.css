@@ -44,7 +44,7 @@ header nav ul{
 
 .nav-link {
   color:#333533;
-  font-size:1.2vw;
+  font-size: max(1em, 1.2vw);
   font-weight:bold;
 }
 
@@ -91,11 +91,11 @@ header nav ul{
 }
 
 .product-title{
-  font-size:min(10vw,3rem);
+  font-size:max(6vw, 2em);
 }
 
 .product-description{
-  font-size:min(10vw,1.8rem);
+  font-size:max(4vw,1.5em);
   margin-bottom:3vh;
 }
 
